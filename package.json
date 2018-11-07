@@ -1,0 +1,17 @@
+{
+  "name": "eso_server_status",
+  "version": "1.0.0",
+  "description": "Fetches the status of the Elder Scrolls Online servers.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonty Morris",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "promise": "^8.0.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
