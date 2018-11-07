@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Fetches the status of the Elder Scrolls Online servers.",
   "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Jonty Morris",
   "license": "MIT",
   "dependencies": {

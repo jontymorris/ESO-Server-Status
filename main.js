@@ -9,7 +9,7 @@ const options = {
     }
 };
 
-function getServers() {
+module.exports.getServers = function() {
     let servers = {};
 
     return new promise(function(fufill, reject){
@@ -27,5 +27,5 @@ function getServers() {
         .error(function(err) {
             reject(err);
         });
-    });    
+    });
 }
